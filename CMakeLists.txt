@@ -6,5 +6,5 @@ include_directories(${OpenCV_INCLUDE_DIRS})
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(learning_opencv src/Chapter2/videoTrackerbar.cpp)
+add_executable(learning_opencv src/Chapter6/perspectiveTransform.cpp)
 target_link_libraries( learning_opencv ${OpenCV_LIBS} )
