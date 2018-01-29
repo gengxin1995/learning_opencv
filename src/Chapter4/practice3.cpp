@@ -101,7 +101,7 @@ void draw_hist(IplImage *img, CvRect Rect) {
     int h_bins = 16, s_bins = 8;
     int hist_size[] = {h_bins, s_bins};
     float h_ranges[] = {0, 180};
-    float s_ranges[]{0, 255};
+    float s_ranges[] = {0, 255};
     float *ranges[] = {h_ranges, s_ranges};
     cvCvtColor(img, hsv, CV_BGR2HSV);
     cvResetImageROI(img);
